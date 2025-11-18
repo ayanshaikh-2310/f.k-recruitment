@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+
+/* Inter Font From gooogle font */
+body{
+  font-family: "Inter", sans-serif;
+}
