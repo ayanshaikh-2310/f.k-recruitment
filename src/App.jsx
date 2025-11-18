@@ -36,6 +36,7 @@ export default function App() {
   if (loading) {
     return (
       <div className="fixed inset-0 bg-amber-800 flex items-center justify-center z-50">
+        
         {/* Typing Text */}
         <motion.h1
           className="text-white text-4xl md:text-6xl font-bold tracking-wide"
@@ -46,6 +47,7 @@ export default function App() {
           {text}
           <span className="animate-pulse">|</span>
         </motion.h1>
+
       </div>
     );
   }
@@ -58,7 +60,7 @@ export default function App() {
         <Services />
         <About />
         <WhyChoose />
-        <ImageSlider />
+        <ImageSlider/>
         <Contact />
       </main>
       <Footer />
